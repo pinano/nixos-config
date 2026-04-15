@@ -26,7 +26,7 @@
   {
     nixosConfigurations = {
       # Change 'my-nixos-pc' to your system's hostname
-      "my-nixos-pc" = nixpkgs.lib.nixosSystem {
+      "sic-hp-nixos" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux"; # Adjust if you use ARM (aarch64-linux)
         
         # Pass inputs to modules so they can use them
